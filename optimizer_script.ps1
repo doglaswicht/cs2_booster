@@ -103,9 +103,7 @@ function Reativar-ServicosPadrao {
     Registrar-Log "Servicos reativados: $($servicos -join ', ')"
     Write-Host "`nTodos os servicos padrao foram reativados." -ForegroundColor Cyan
 }
-function Reativar-ServicosPadrao {
-    # ... já existente ...
-}
+
 function Mostrar-ComandosCS2 {
     Write-Host ""
     Write-Host "Comandos recomendados para colocar no lancamento do CS2:" -ForegroundColor Magenta
